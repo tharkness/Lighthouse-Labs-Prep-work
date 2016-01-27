@@ -17,10 +17,14 @@ h1 {
 img:hover {
 	transform: scale(1.05, 1.05);
 }
-.imgdiv {
+.ingredientsdiv {
 	margin-bottom: 10px;
 }
 .buttondiv {
 	text-align: center;
 	transform: scale(1.2, 1.2);
+}
+li.marked {
+	color: rgb(0, 0, 204);
+	font-weight: bold;
 }

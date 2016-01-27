@@ -1,5 +1,11 @@
 $(document).ready(function() {
 	$(".buttondiv").click(function() {
-		$(".imgdiv").toggle(1000);
+		$(".ingredientsdiv").toggle(1000);
+	});
+	$("#ingredients_list li").click(function() {
+		$(this).toggleClass("marked");
+	});
+	$("#instructions_list ul li").click(function() {
+		$(this).toggleClass("marked");
 	});
 });
